@@ -1,0 +1,22 @@
+@import './Mixin.scss';
+.bellBtn{
+    position: relative;
+    .bellBtn-link{
+        color:$light-gray-text;
+    }
+    .counter-link{
+    .counter{
+        border:1px solid $light-gray-text;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
+        position: absolute;
+        width: 20px;
+    top: -80%;
+    left: 38%;
+    font-size: 0.75rem;
+    }
+}
+}

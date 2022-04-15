@@ -1,0 +1,64 @@
+@import './Mixin.scss';
+@import '../Reset.scss';
+.searchBox{
+    position: relative;
+    .form-control{
+        border-radius: 1rem;
+        background-color: $light-gray;
+        border:0;
+        padding: 7px 15px;
+        &::placeholder{
+            color:$light-gray-text;
+            font-size: 0.8rem;
+        }
+    }
+    .searchIcon{
+        position:absolute;
+        top: 13%;
+        right: 4%;
+        background: 0;
+        border:0;
+    }
+
+}
+.searchMobile{
+input{
+    display: none;  
+}
+&.searchView{
+background-color: $white;
+display: block;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+height: 70px;
+z-index: 2;
+.searchIcon{
+    position: absolute;
+    right: 3%;
+    top: 35%;
+}
+input{
+    display: block;
+    height: 70px;
+    &::placeholder{
+        font-size: 0.8rem;
+        color:$light-gray-text;
+        
+    }
+    }
+}
+}
+.btnBuy{
+    border-radius: 1rem;
+        .btn-outline{
+            border:1px solid $light-black;
+            border-radius: 1rem;
+            padding: 5px 10px;
+            color:$light-gray-text;
+            font-size: 0.8rem;
+            padding: 6px 10px;
+        }
+       
+}
