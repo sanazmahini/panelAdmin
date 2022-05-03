@@ -11,11 +11,10 @@ import BellBtn from './BellBtn';
 import FullSceenBtn from './FullSceenBtn';
 import Profile from './Profile';
 import LanguageBtn from './LanguageBtn';
-const header = () => {
+const Header = () => {
     return (
         <div>
            
-            <header className={styles.mainHeader}>
                 {/* Start Main Header */}
                 <div className='main-header py-4'>
                 <div className='container'>
@@ -41,10 +40,9 @@ const header = () => {
                         </div>
                 </div>
                  {/* End Main Header */}
-            </header>
        
         </div>
     );
 };
 
-export default header;
+export default Header;
