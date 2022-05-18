@@ -7,6 +7,7 @@ const Profile = () => {
         ToggleProfileMenu.classList.toggle('active');
     }
     return (
+        <>
         <div className='flex-shrink-0'>
             {/* Start Profile */}
             <div className='profile flex-shrink-0' onClick={ToggleProfileMenu}>
@@ -26,6 +27,8 @@ const Profile = () => {
             </div>
              {/* End Profile */}
         </div>
+        </>
+
     );
 };
 

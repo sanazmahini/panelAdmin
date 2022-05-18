@@ -2,7 +2,7 @@ import React from 'react';
 import '../../assets/lib/bootstrap/dist/css/bootstrap.min.css';
 const buttonMenu = () => {
     return (
-        <div>
+        <>
             {/* Start Button Menu */}
             <div className='buttonMenu'>
             <a href="#" className='mr-4' aria-label='buttonMenu'>
@@ -10,7 +10,7 @@ const buttonMenu = () => {
                 </a>
             </div>
             {/* End Button Menu */}
-        </div>
+        </>
     );
 };
 

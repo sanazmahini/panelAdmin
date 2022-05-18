@@ -2,7 +2,7 @@ import React from 'react';
 import './BellBtn.scss';
 const BellBtn = () => {
     return (
-        <div>
+        <>
             {/* Start Bell Btn */}
             <div className='bellBtn mx-3 mx-md-0'>
             <a href="#" className='bellBtn-link' aria-label='bellBtn'>
@@ -13,7 +13,7 @@ const BellBtn = () => {
             </a>
             </div>
             {/* End Bell Btn */}
-        </div>
+        </>
     );
 };
 

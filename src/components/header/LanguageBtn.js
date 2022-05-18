@@ -6,7 +6,7 @@ const LanguageBtn = () => {
         toggleLanguageMenu.classList.toggle('active');
     }
     return (
-        <div>
+        <>
             {/* Start Change Language */}
               <div className='changeLanguage mx-2'>
                 <button className='btn btn-language' onClick={ToggleLanguageMenu}>
@@ -21,7 +21,7 @@ const LanguageBtn = () => {
                 </div>
             </div>
             {/* End Change Language */}
-        </div>
+        </>
     );
 };
 

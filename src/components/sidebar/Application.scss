@@ -1,0 +1,16 @@
+@import '../header/Mixin.scss';
+.item{
+    cursor: pointer;
+.application{
+    color:$light-black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 125px;
+    height: 115px;
+    color:$light-black;
+    .title{
+        font-size:$fz9;
+    }
+}}

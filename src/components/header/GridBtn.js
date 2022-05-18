@@ -1,14 +1,12 @@
 import React from 'react';
 import './GridBtn.scss';
 const GridBtn = () => {
-
     const ToggleGridMenu = () => {
         const togglegridmenu = document.querySelector('.gridMenu');
         togglegridmenu.classList.toggle('active');
-    }
-    
+    }    
     return (
-        <div>
+        <>
             {/* Start Grid Btn */}
             <div className='gridBtn mx-3 d-none d-md-inline-block' onClick={ToggleGridMenu}>
                 <a href='#' aria-label="gridBtn" className='gridBtn-link'>
@@ -44,7 +42,7 @@ const GridBtn = () => {
                     </div>
             </div>
             {/* End Grid Btn */}
-        </div>
+        </>
     );
 };
 

@@ -1,0 +1,31 @@
+@import '../header/Mixin.scss';
+.defaultPage{
+    margin-top:3rem;
+    @media(min-width:1200px){
+        margin-top:4rem;
+    }
+    h1{
+    color:$light-black;
+    font-size: 1.5rem;
+}
+nav{
+    .breadcrumb{
+        .breadcrumb-item{
+            font-size: $fz8;
+            a{
+                color:$light-black;
+            }
+            &.active{
+                color:$light-gray-text; 
+            }
+        }
+    }
+}
+.separator{
+    border-bottom: 1px solid $middle-gray;
+}
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    transform: rotate(-18deg);
+}

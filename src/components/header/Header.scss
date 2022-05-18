@@ -1,6 +1,13 @@
 @import './Mixin.scss';
 
 .main-header{
+    position: relative;
+    z-index: 999;
     background-color: $white;
     box-shadow: 0 1px 15px rgba(0 ,0, 0 , 0.04), 0 1px 6px rgba(0 ,0 ,0 ,0.04);
+}
+.fixed{
+    position: fixed;
+    top:0px;
+    width: 100%;
 }

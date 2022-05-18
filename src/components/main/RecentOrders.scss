@@ -1,0 +1,77 @@
+@import '../header/Mixin.scss';
+.recentOrders{
+    background: $white;
+    box-shadow: 0 1px 15px rgba(0, 0 ,0 , 0.04), 0 1px 6px rgba(0, 0 ,0 ,0.04);
+    border-radius: 0.8rem;
+    .subject{
+        strong{
+            color:$light-black;
+        }
+    }
+    .orders{
+        height: 522px;
+        overflow-y: scroll;
+        border-radius: 0.8rem;
+        .order{
+            .image{
+                position: relative;
+                img{
+                    border-radius: 0.8rem;
+                    -webkit-border-radius: 0.8rem;
+                    -moz-border-radius: 0.8rem;
+                    -ms-border-radius: 0.8rem;
+                    -o-border-radius: 0.8rem;
+                    }
+                    .label{
+                        position: absolute;
+                        right: -5%;
+                        top: 6%;
+                        background: $navy;
+                        font-size: $fz75;
+                        border-radius: 0.8rem;
+                        padding: 1px 10px;
+                        color: $white;
+                    }
+            }
+           .content{
+               .title{
+                   strong{
+                       font-size: $fz9;
+                       color:$light-black;
+                   }
+               }
+               .description{
+                   span{
+                   color:$light-gray-text;
+                   font-size: $fz8;
+                }
+               }
+               .date{
+                   span{
+                       color:$navy;
+                       font-size: $fz8;
+                   }
+               }
+           }
+        }
+    }
+}
+.orders.scroll:hover {
+    overflow-y: scroll;
+    background-color: #fff;
+    // margin: 0 0 10px 0;
+}
+.scroll::-webkit-scrollbar {
+    width:5px;
+    
+}
+.scroll::-webkit-scrollbar-track {
+    // -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius:5px;
+   
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    -webkit-box-shadow: inset 0 0 6px $middle-gray; 
+    
+}

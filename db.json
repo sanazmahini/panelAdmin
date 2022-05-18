@@ -1,0 +1,10 @@
+{
+    "posts": [
+      { "id": 1, "title": "Marbel Cake", "description": "Wedding cake with flowers Macarons", "date":"Wedding cake with flowers Macarons","img":"./../../assets/img/MarbleCake.jpg" },
+      { "id": 2, "title": "json-server2", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

@@ -6,8 +6,7 @@ import RouteComponent from './components/Routing/RouteComponent';
 
 function App() {
   return (
-    // <div className="App">
-
+    // <div className="App"> 
     //  <Header />
     // </div>
     <BrowserRouter>

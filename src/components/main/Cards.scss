@@ -1,0 +1,36 @@
+@import '../header/Mixin.scss';
+
+
+.cards{
+    .card{
+        box-shadow: 0 1px 15px rgba(0 ,0, 0 ,0.04), 0 1px 6px rgba(0, 0 ,0 , 0.04);
+        border-radius: 0.8rem;   
+        min-height: 185px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        border:0;
+        .cardBody{
+            .cardIcon{
+            color:$navy;
+            }
+        .cardContent{
+         .title{
+            strong{
+           color:$light-gray-text;
+           font-size: $fz8;
+            }
+   }
+    .count{
+        .number{
+            color:$navy;
+            font-size: 1.8rem;
+        }
+    }
+}
+}
+    }
+    .swiper{
+        padding: 0.5rem 0.4rem;
+    }
+}

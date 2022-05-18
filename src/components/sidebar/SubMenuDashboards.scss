@@ -1,0 +1,12 @@
+@import '../header/Mixin.scss';
+
+.SubMenuDashboards{
+    .title{
+        color:$light-black;
+        font-size: $fz8;
+        a{
+            color:$light-black;
+            font-size: $fz8; 
+        }
+    }
+}
