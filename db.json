@@ -1,15 +1,15 @@
 {
     "posts": [
-      { "id": 1, "title": "Marble Cake", "description": "Wedding cake with flowers Macarons and blueberries", "date":"2.2.1401", "img":"./../../assets/img/MarbleCake.jpg","label":"ON HOLD" },
-      { "id": 2, "title": "Fat Rascal", "description": "Cheesecake with chocolate cookies and Cream biscuits", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"PROCESSED" },
-      { "id": 3, "title": "Chocolate Cake", "description": "Homemade cheesecake with fresh berries and mint", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"ON HOLD" },
-      { "id": 4, "title": "Goose Breast", "description": "Cheesecake with chocolate", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"PROCESSED" },
-      { "id": 5, "title": "Petit Gâteau", "description": "Cheesecake with chocolate cookies and Cream biscuits", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"PROCESSED" },
-      { "id": 6, "title": "Salzburger Nockerl", "description": "Cheesecake ", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"ON HOLD" },
-      { "id": 7, "title": "Marble Cake", "description": "Cheesecake with chocolate Cream biscuits", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"PROCESSED" },
-      { "id": 8, "title": "Fat Rascal", "description": "Cheesecake with chocolate ", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"ON HOLD" },
-      { "id": 9, "title": "Goose Breast", "description": "Cheesecake with ", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"PROCESSED" },
-      { "id": 10, "title": "Fat Rascal", "description": "Cheesecake ", "date":"01.04.2018", "img":"./../../assets/img/MarbleCake.jpg","label":"ON HOLD" }
+      { "id": 1, "title": "Marble Cake", "description": "Wedding cake with flowers Macarons and blueberries", "date":"2.2.2021", "img":"http://localhost:3001/static/media/MarbleCake.0d25820bf68a3aab8e88.jpg","label":"ON HOLD" },
+      { "id": 2, "title": "Fat Rascal", "description": "Cheesecake with chocolate cookies and Cream biscuits", "date":"01.04.2018", "img":"http://localhost:3001/static/media/chocolate-cake-thumb.1ddb43fcda3cb7b4fd86.jpg","label":"PROCESSED" },
+      { "id": 3, "title": "Chocolate Cake", "description": "Homemade cheesecake with fresh berries and mint", "date":"02.05.2021", "img":"http://localhost:3001/static/media/fat-rascal-thumb.df8a22659e1505622563.jpg","label":"ON HOLD" },
+      { "id": 4, "title": "Goose Breast", "description": "Cheesecake with chocolate", "date":"12.04.2018", "img":"http://localhost:3001/static/media/goose-breast-thumb.9deb2a11a185c833980d.jpg","label":"PROCESSED" },
+      { "id": 5, "title": "Petit Gâteau", "description": "Cheesecake with chocolate cookies and Cream biscuits", "date":"01.04.2020", "img":"http://localhost:3001/static/media/salzburger-nockerl-thumb.a80f1052c42942c9832c.jpg","label":"PROCESSED" },
+      { "id": 6, "title": "Salzburger Nockerl", "description": "Cheesecake ", "date":"01.12.2019", "img":"http://localhost:3001/static/media/MarbleCake.0d25820bf68a3aab8e88.jpg","label":"ON HOLD" },
+      { "id": 7, "title": "Marble Cake", "description": "Cheesecake with chocolate Cream biscuits", "date":"01.04.2018", "img":"http://localhost:3001/static/media/chocolate-cake-thumb.1ddb43fcda3cb7b4fd86.jpg","label":"PROCESSED" },
+      { "id": 8, "title": "Fat Rascal", "description": "Cheesecake with chocolate ", "date":"15.04.2021", "img":"http://localhost:3001/static/media/fat-rascal-thumb.df8a22659e1505622563.jpg","label":"ON HOLD" },
+      { "id": 9, "title": "Goose Breast", "description": "Cheesecake with ", "date":"01.08.2021", "img":"http://localhost:3001/static/media/goose-breast-thumb.9deb2a11a185c833980d.jpg","label":"PROCESSED" },
+      { "id": 10, "title": "Fat Rascal", "description": "Cheesecake ", "date":"09.04.2021", "img":"http://localhost:3001/static/media/salzburger-nockerl-thumb.a80f1052c42942c9832c.jpg","label":"ON HOLD" }
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }

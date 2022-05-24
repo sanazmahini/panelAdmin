@@ -2,18 +2,20 @@ import React, {useEffect, useState} from 'react';
 import styles from './RecentOrders.scss';
 import Order from './Order';
 import axios from 'axios';
+
 const RecentOrders = (props) => {
     const [orderData, setOrderData] = useState([]);
     useEffect(() => {
         axios.get("http://localhost:3000/posts")
         .then(response => {
             setOrderData(response.data)
+            console.log( response)
             console.log("response", response.data)
         }
     )
         console.log("set data", setOrderData)
         }, [])
-       const newOrder=orderData;
+      
     return (
         <>
         {/* Start Recent Orders */}
@@ -30,7 +32,7 @@ const RecentOrders = (props) => {
                     </span>
                 </div>
                 <div className='orders px-3 scroll'>
-                   {orderData.map(item => <Order key={item.id} title={item.title} description={item.description} date={item.date} label={item.label}/>)} 
+                   {orderData.map(item => <Order key={item.id} img={item.img} title={item.title} description={item.description} date={item.date} label={item.label}/>)} 
                 </div>
             </div> 
         {/* End Recent Orders */}

@@ -1,12 +1,12 @@
 import React  from 'react';
-import MarbelCake from './../../assets/img/MarbleCake.jpg';
+// import MarbelCake from './../../assets/img/salzburger-nockerl-thumb.jpg';
 import axios from 'axios';
 const Order = (props) => {
     return (
         <>
             <div className='order d-flex align-items-center pb-3'>       
                 <div className='image'>
-                    <img src={MarbelCake} width="100" height="90" className='flex-shrink-0' alt={props.title} />
+                    <img src={props.img} width="100" height="90" className='flex-shrink-0' alt={props.title} />
                     <span className='label'>{props.label}</span>
                 </div>
                 <div className='mx-3 content'>
