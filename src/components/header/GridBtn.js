@@ -4,7 +4,8 @@ const GridBtn = () => {
     const ToggleGridMenu = () => {
         const togglegridmenu = document.querySelector('.gridMenu');
         togglegridmenu.classList.toggle('active');
-    }    
+    } 
+    window.onClick   
     return (
         <>
             {/* Start Grid Btn */}
