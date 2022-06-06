@@ -6,7 +6,7 @@ import axios from 'axios';
 const RecentOrders = (props) => {
     const [orderData, setOrderData] = useState([]);
     useEffect(() => {
-        axios.get("http://localhost:3000/posts")
+        axios.get("https://jsonplaceholder.typicode.com/photos")
         .then(response => {
             setOrderData(response.data)
             console.log( response)
@@ -32,7 +32,7 @@ const RecentOrders = (props) => {
                     </span>
                 </div>
                 <div className='orders px-3 scroll'>
-                   {orderData.map(item => <Order key={item.id} img={item.img} title={item.title} description={item.description} date={item.date} label={item.label}/>)} 
+                   {orderData.map(item => <Order key={item.id} thumbnailUrl={item.thumbnailUrl} title={item.title} description={item.description} date={item.date} label={item.label}/>)} 
                 </div>
             </div> 
         {/* End Recent Orders */}

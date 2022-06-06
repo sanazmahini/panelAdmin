@@ -23,6 +23,10 @@
         a{
             color:$light-gray-text;
             font-size: 0.8rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
             &:hover{
                 color:$light-black;
             }

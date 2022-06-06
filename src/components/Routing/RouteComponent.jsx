@@ -14,8 +14,9 @@ export default function RouteComponent() {
   return (
       <PanelLayout>
     <Routes>
-      <Route path="/" element={<Home />} />
+      {/* <Route path="/" element={<Home />} /> */}
        {/*<Route path="/test" element={<Test />} /> */}
+      {/* <Route path="/DefaultPage" element={<DefaultPage />} /> */}
       <Route path="/DefaultPage" element={<DefaultPage />} />
       <Route path="/LoginPage" element={<LoginPage />} />
       <Route path="/RegisterPage" element={<RegisterPage />} />

@@ -39,7 +39,7 @@ let fixed = mainheader.offsetTop;
                             </div>                        
                         <div className='flex-shrink-0'><MainLogo/></div>
                             <div className='d-flex align-items-center'>
-                             <DarkMode/>
+                             {/* <DarkMode/> */}
                              <GridBtn/>
                              <BellBtn/>
                              <FullSceenBtn/>

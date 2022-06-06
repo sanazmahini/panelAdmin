@@ -6,8 +6,8 @@ const Order = (props) => {
         <>
             <div className='order d-flex align-items-center pb-3'>       
                 <div className='image'>
-                    <img src={props.img} width="100" height="90" className='flex-shrink-0' alt={props.title} />
-                    <span className='label'>{props.label}</span>
+                    <img src={props.thumbnailUrl} width="100" height="90" className='flex-shrink-0' alt={props.title} />
+                    {/* <span className='label'>{props.label}</span> */}
                 </div>
                 <div className='mx-3 content'>
                 <div className='title mb-2'>
